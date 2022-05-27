@@ -32,7 +32,6 @@ def luckBalance(k, contests):
     # Write your code here
     contests=sorted(contests,reverse=True,key=lambda x: x[0])
     luck = 0
-    print(contests)
     for x in range(len(contests)):
         if(k>0):
             if(contests[x][1]==1):
